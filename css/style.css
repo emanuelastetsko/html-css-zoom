@@ -1,14 +1,61 @@
 /* RESET */
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+
+
 /* REGOLE GENERALI */
+
+body{
+    background-color: black;
+    color: white;
+}
+
+svg{
+    fill: white;
+    width: 1em;
+    height: auto;
+}
+
+
 
 /* HEADER */
 
+header{
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header ul {
+    list-style: none;
+}
+
+header ul li {
+    display: inline-block;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: white;
+    background-color: grey;
+    margin-right: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+header ul li a svg {
+    vertical-align: top;
+}
+
+
+
 /* MAIN */
+
+
 
 /* NAV */
