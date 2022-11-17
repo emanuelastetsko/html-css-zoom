@@ -26,9 +26,14 @@ svg{
 /* HEADER */
 
 header{
+    margin-bottom: 7vh;
+}
+
+.header-container{
     margin-top: 10px;
-    display: flex;
-    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    right: 0;
 }
 
 header ul {
@@ -56,6 +61,44 @@ header ul li a svg {
 
 /* MAIN */
 
+main {
+    height: 70vh;
+}
+
 
 
 /* NAV */
+
+nav {
+    background-color: #222222;
+    padding: 10px 0;
+}
+
+nav div.nav-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav div ul li {
+    display: inline-block;
+    padding: 0 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+nav div ul li i#green {
+     color: green;
+}
+
+nav div ul li i {
+    font-size: 1.7em;
+    padding-bottom: 10px;
+}
+
+nav div div.end{
+    color: red;
+    align-self: center;
+    padding: 20px;
+    background-color: rgb(128, 128, 128, 0.2);
+    cursor: pointer;
+}
