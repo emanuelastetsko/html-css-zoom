@@ -26,7 +26,7 @@ svg{
 /* HEADER */
 
 header{
-    margin-bottom: 7vh;
+    height: 70px;
 }
 
 .header-container{
@@ -62,7 +62,36 @@ header ul li a svg {
 /* MAIN */
 
 main {
-    height: 70vh;
+    height: calc(100vh - 150px);
+    display: flex;
+    align-content: center;
+}
+
+main div.container-main{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+main div div.speakers-container{
+    margin: 10px 0;
+    position: relative;
+}
+
+
+main div div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+main div div div.speaker-info{
+    padding: 5px;
+    background-color: rgb(211, 211, 211, 0.6);
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 
 
@@ -72,6 +101,7 @@ main {
 nav {
     background-color: #222222;
     padding: 10px 0;
+    height: 80px;
 }
 
 nav div.nav-container{
@@ -95,6 +125,10 @@ nav div ul li i {
     padding-bottom: 10px;
 }
 
+nav div ul li i.fa-chevron-up{
+    font-size: 1em;
+}
+
 nav div div.end{
     color: red;
     align-self: center;
@@ -102,3 +136,5 @@ nav div div.end{
     background-color: rgb(128, 128, 128, 0.2);
     cursor: pointer;
 }
+
+
